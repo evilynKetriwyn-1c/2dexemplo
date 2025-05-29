@@ -1,4 +1,24 @@
-.cabecalho {
+.cabecalho{
     display:flex;
-    ju
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 15px 20px;
+    color: rgb(15,15,15);
+}
+.cabecalho_logo{
+    margin-bottom: 0,5rem;
+    height: 60px;
+}
+
+.logo{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
